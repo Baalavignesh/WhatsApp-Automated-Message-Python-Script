@@ -21,6 +21,16 @@ for k in range (0,len(box)):
     if(name.text == pin):
         pinnedMessage = name
         pinnedMessage.click()
+        
+        # UNCOMMENT THESE LINES TO SPAM A FRIEND ;)
+        #Enter your Friends Name displayed in your Chat in the place of Pinned Message
+
+        # for i in range(0,100):
+        #     messageBox = driver.find_element_by_xpath('//*[@id="main"]/footer/div[1]/div[2]/div/div[2]')
+        #     messageBox.send_keys('SPAM MESSAGE HERE')
+
+        #     sendButton = driver.find_element_by_xpath('//*[@id="main"]/footer/div[1]/div[3]')
+        #     sendButton.click()
 
 
 for j in range (0,1000):
